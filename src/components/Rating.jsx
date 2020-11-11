@@ -1,12 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-class Rating extends React.Component{
-    render(){
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+class Rating extends React.Component {
+  render() {
+    return (
+      <div>teste</div>
+    );
+  }
 }
-export default Rating
+export default Rating;
