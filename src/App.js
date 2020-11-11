@@ -1,13 +1,24 @@
 import React from 'react';
+import Header from './components/Header'
+import MovieCard from './components/MovieCard'
+import MovieList from './components/MovieList'
+import Rating from './components/Rating'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      {/* Sua implementação deve ficar aqui. Remova essas duas linhas e mão na massa */}
-      Hora de codar! 🚀✍️👨‍💻👩‍💻💪
-    </div>
-  );
+class App extends React.Component{
+  render(){
+
+    return( 
+      <div>
+        <Header />
+        <MovieCard />
+        <MovieList />
+        <Rating />
+      </div>
+
+    );
+  };
 }
+ 
 
 export default App;
